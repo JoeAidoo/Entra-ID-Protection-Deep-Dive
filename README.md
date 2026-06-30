@@ -91,6 +91,7 @@ Respond and remediate
 Microsoft Entra Conditional Access offers three risk conditions powered by Microsoft Entra ID Protection signals: Sign-in risk, User risk and service principal risk. Organizations can create risk-based Conditional Access policies by configuring these three risk conditions and choosing an access control method. During each sign-in, ID Protection sends the detected risk levels to Conditional Access, and the risk-based policies apply if the policy conditions are satisfied.
 
 Risk-based Conditional Access policies can be enabled to require access controls such as providing a strong authentication method, perform multifactor authentication, require sign-in, perform a secure password reset based on the detected risk level.
+<img width="935" height="463" alt="image" src="https://github.com/user-attachments/assets/f2f960d9-a7f3-4f48-b7fa-6fcc7b87bf5b" />
 
 
 It’s not recommended to configure risk policies also from Identity Protection blade, it’s highly recommended to use risk based Conditional Access policy as this will offer more granularity and security.
@@ -140,6 +141,7 @@ Microsoft Entra ID Protection sends two types of automated notification emails t
 
 Users at risk detected email
 Weekly digest email
+<img width="796" height="595" alt="image" src="https://github.com/user-attachments/assets/e0bc084b-43cb-47a5-a09d-8f7816d4f19d" />
 
 Impact analysis of risk-based access policies
 Customers are often concerned about the implementation of risk-based Conditional Access policies because of the impact these might have in their productivity.
@@ -153,6 +155,7 @@ Impact details for unique users, including high-risk users not blocked or prompt
 Sign-in risk policy scenarios, such as high-risk sign-ins not blocked or self-remediated using multifactor authentication by a risk-based access policy, risky sign-ins unsuccessful due to a policy, and risky sign-ins remediated by multifactor authentication.
 Network details, including top IP addresses not listed as a trusted network.
 Administrators can use this information to anticipate which users might be affected over time if risk-based Conditional Access policies are enabled.
+<img width="796" height="573" alt="image" src="https://github.com/user-attachments/assets/60b413ae-87bc-45e9-bf69-544d8f9bd1a3" />
 
 
 Important
